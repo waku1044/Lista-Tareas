@@ -18,13 +18,18 @@
             data-input>
             <button class="btn btn-success" data-btn-agregar>Agregar</button>
         </form>
+        <div class="info d-flex justify-content-between px-5 pt-3">
+            <p class="fw-bold">Pendiente: <span data-pendiente></span></p>
+            <p class="fw-bold">Concretadas: <span data-concretado></span></p>
+
+        </div>
     </header>
     <main>
         <h3 class="text-center">Lista de Tareas</h3>
-        <section id="section">
+        <section id="section" class="row">
         </section>
     </main>
 
-    <script type="module" src="index.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
